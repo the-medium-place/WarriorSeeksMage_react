@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function index() {
+export default function Index() {
     return (
         <div>
-            tst
+            <h1>LOGIN PAGE</h1>
         </div>
     )
 }

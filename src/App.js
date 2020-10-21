@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/">
+        <Route exact path={["/", "/login"]}>
           <Login />
         </Route>
         <Route exact path="/swipe">
